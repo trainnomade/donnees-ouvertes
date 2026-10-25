@@ -1,0 +1,29 @@
+name: Erreur dans les données
+description: Une valeur fausse, une gare ou une ligne manquante, un fichier illisible.
+title: "[Erreur] "
+labels: ["donnees"]
+body:
+  - type: dropdown
+    id: jeu
+    attributes:
+      label: Jeu concerné
+      options:
+        - Desserte des gares
+        - Tracés ferroviaires
+        - Trains de nuit
+        - Correspondances gare-bus
+        - Autre
+    validations:
+      required: true
+  - type: input
+    id: fichier
+    attributes:
+      label: Fichier et ligne
+      description: "Par exemple : desserte-gares.csv, gare 87481002"
+  - type: textarea
+    id: constat
+    attributes:
+      label: Ce que vous constatez
+      description: La valeur publiée, la valeur attendue et, si possible, la source qui le montre.
+    validations:
+      required: true

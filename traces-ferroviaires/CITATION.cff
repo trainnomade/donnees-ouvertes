@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit the sources: Tracés ferroviaires : Train Nomade (https://trainnomade.fr), d'après © les contributeurs OpenStreetMap et les horaires SNCF Voyageurs (ODbL)."
+type: dataset
+title: "Railway track geometry between consecutive stops in France (GeoJSON and GTFS shapes)"
+abstract: >-
+  Track geometry of every passenger railway section between two consecutive stops of the SNCF timetables
+  (about 3,200 sections), routed on OpenStreetMap tracks, with length, maximum speed, bridges, tunnels and
+  electrification, as CSV, simplified GeoJSON (WGS84) and a GTFS shapes.txt keyed by UIC codes. Recomputed
+  every month by Train Nomade. Live files: https://api.trainnomade.fr/donnees/v1/traces-ferroviaires.csv,
+  https://api.trainnomade.fr/donnees/v1/traces-ferroviaires.geojson and
+  https://api.trainnomade.fr/donnees/v1/traces-ferroviaires-shapes.txt
+authors:
+  - name: "Train Nomade"
+    email: contact@trainnomade.fr
+    website: "https://trainnomade.fr"
+version: "2026-10-25"
+date-released: "2026-10-25"
+license: ODbL-1.0
+url: "https://trainnomade.fr/donnees/traces-ferroviaires/"
+repository: "https://www.data.gouv.fr/organizations/train-nomade/"
+keywords:
+  - railway
+  - track
+  - geometry
+  - GeoJSON
+  - GTFS shapes
+  - OpenStreetMap
+  - SNCF
+  - France
+  - open data
+references:
+  - type: data
+    title: "OpenStreetMap"
+    authors:
+      - name: "OpenStreetMap contributors"
+    url: "https://www.openstreetmap.org/copyright"
+  - type: data
+    title: "Réseau SNCF TGV, Intercités et TER (GTFS)"
+    authors:
+      - name: "SNCF Voyageurs"
+    url: "https://transport.data.gouv.fr/datasets/horaires-sncf"

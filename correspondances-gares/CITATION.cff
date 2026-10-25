@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit the sources: Correspondances gare-bus : Train Nomade (https://trainnomade.fr), d'après les horaires des réseaux publiés sur transport.data.gouv.fr."
+type: dataset
+title: "Bus, tram and coach connections at French railway stations: stops within 350 m, lines and typical times"
+abstract: >-
+  For the railway stations covered by Train Nomade, every bus, tram, metro or coach stop within 350 m of
+  the station, with its lines, directions, first and last departure on a working day, daytime frequency and
+  number of departures on a working day, a Saturday and a Sunday, from the GTFS timetables published by the
+  local networks on transport.data.gouv.fr. Updated every week. Live file:
+  https://api.trainnomade.fr/donnees/v1/correspondances-gares.csv
+authors:
+  - name: "Train Nomade"
+    email: contact@trainnomade.fr
+    website: "https://trainnomade.fr"
+version: "2026-10-25"
+date-released: "2026-10-25"
+license: ODbL-1.0
+url: "https://trainnomade.fr/donnees/correspondances-gares/"
+repository: "https://www.data.gouv.fr/organizations/train-nomade/"
+keywords:
+  - bus
+  - tram
+  - coach
+  - railway station
+  - connections
+  - GTFS
+  - public transport
+  - France
+  - open data
+references:
+  - type: data
+    title: "Point d'accès national aux données de mobilité"
+    authors:
+      - name: "transport.data.gouv.fr"
+    url: "https://transport.data.gouv.fr/"

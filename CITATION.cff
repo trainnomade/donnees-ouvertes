@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ces données, citez la source comme ci-dessous (le crédit propre à chaque jeu est dans son dossier). If you use these data, please cite them as below."
+type: dataset
+title: "Train Nomade : données ouvertes ferroviaires (France)"
+abstract: >-
+  Open datasets about trains in France: service at every railway station, railway geometry between two stops,
+  night trains, connections between stations and local public transport. Computed by Train Nomade from official
+  open data (SNCF Voyageurs GTFS timetables, local transport networks, OpenStreetMap). Live files:
+  https://api.trainnomade.fr/donnees/v1/
+authors:
+  - name: "Train Nomade"
+    email: contact@trainnomade.fr
+    website: "https://trainnomade.fr"
+license: ODbL-1.0
+url: "https://trainnomade.fr"
+repository: "https://github.com/trainnomade/donnees-ouvertes"
+keywords:
+  - railway
+  - train
+  - station
+  - SNCF
+  - GTFS
+  - France
+  - open data

@@ -1,0 +1,15 @@
+name: Question ou besoin
+description: Une question sur une colonne, un autre format, un nouveau jeu ou votre réutilisation.
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Votre question
+    validations:
+      required: true
+  - type: input
+    id: reutilisation
+    attributes:
+      label: Votre réutilisation (facultatif)
+      description: Adresse du site, de l'application ou de l'article qui utilise ces données.

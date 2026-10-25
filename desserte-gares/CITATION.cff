@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit the sources: Desserte des gares : Train Nomade (https://trainnomade.fr), d'après les horaires SNCF Voyageurs (ODbL)."
+type: dataset
+title: "Train service at every French railway station: trains per day, first and last departure, direct destinations"
+abstract: >-
+  For each of the 2,792 passenger stations listed by SNCF, average number of trains on a working day, on
+  Saturday and on Sunday, regional coaches, first and last departure, number of direct destinations and kinds
+  of trains, plus one line per direct link (trains per week, shortest travel time). Computed every night by
+  Train Nomade from the SNCF Voyageurs GTFS timetables for the next 14 days. Live files:
+  https://api.trainnomade.fr/donnees/v1/desserte-gares.csv and
+  https://api.trainnomade.fr/donnees/v1/desserte-gares-destinations.csv
+authors:
+  - name: "Train Nomade"
+    email: contact@trainnomade.fr
+    website: "https://trainnomade.fr"
+version: "2026-10-25"
+date-released: "2026-10-25"
+license: ODbL-1.0
+url: "https://trainnomade.fr/donnees/desserte-gares/"
+repository: "https://www.data.gouv.fr/organizations/train-nomade/"
+keywords:
+  - railway
+  - train
+  - station
+  - SNCF
+  - timetable
+  - GTFS
+  - France
+  - open data
+references:
+  - type: data
+    title: "Réseau SNCF TGV, Intercités et TER (GTFS)"
+    authors:
+      - name: "SNCF Voyageurs"
+    url: "https://transport.data.gouv.fr/datasets/horaires-sncf"
+  - type: data
+    title: "Gares de voyageurs"
+    authors:
+      - name: "SNCF"
+    url: "https://ressources.data.sncf.com/explore/dataset/gares-de-voyageurs/"

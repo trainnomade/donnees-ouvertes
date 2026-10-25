@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Faille de sécurité (signalement privé)
+    url: https://github.com/trainnomade/donnees-ouvertes/security/advisories/new
+    about: Ne publiez pas une faille dans un ticket public.
+  - name: API en temps réel (documentation)
+    url: https://trainnomade.fr/api/
+    about: Adresses, limites et exemples de l'API de Train Nomade.

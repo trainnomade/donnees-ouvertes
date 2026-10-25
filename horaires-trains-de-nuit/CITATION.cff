@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit the sources: Trains de nuit : Train Nomade (https://trainnomade.fr), d'après les horaires SNCF Voyageurs (ODbL)."
+type: dataset
+title: "Night trains from France: every scheduled run, its stops and times"
+abstract: >-
+  Every scheduled run of the night trains departing from France found in open timetables (Intercités de
+  nuit, SNCF Voyageurs), from today to the end of the published timetable: one file with one line per run
+  (date, train number, origin, destination, times, duration) and one with one line per stop. Updated every
+  night by Train Nomade. Live files: https://api.trainnomade.fr/donnees/v1/horaires-trains-de-nuit.csv and
+  https://api.trainnomade.fr/donnees/v1/horaires-trains-de-nuit-arrets.csv
+authors:
+  - name: "Train Nomade"
+    email: contact@trainnomade.fr
+    website: "https://trainnomade.fr"
+version: "2026-10-25"
+date-released: "2026-10-25"
+license: ODbL-1.0
+url: "https://trainnomade.fr/donnees/horaires-trains-de-nuit/"
+repository: "https://www.data.gouv.fr/organizations/train-nomade/"
+keywords:
+  - night train
+  - sleeper
+  - Intercités de nuit
+  - railway
+  - timetable
+  - GTFS
+  - SNCF
+  - France
+  - open data
+references:
+  - type: data
+    title: "Réseau SNCF TGV, Intercités et TER (GTFS)"
+    authors:
+      - name: "SNCF Voyageurs"
+    url: "https://transport.data.gouv.fr/datasets/horaires-sncf"
